@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 header{
-    margin: 10px 0px;
     
 }
 .logo{
@@ -47,4 +46,34 @@ li:hover{
 
 .drop_menu{
     display: none;
+}
+.main{
+
+}
+.head{
+    height: 40vh;
+    width: 100%;
+}
+.picture{
+    background-image: url(img/coffee.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    z-index: -10;    
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.48);
+    top: 0;
+    bottom: 0;
+    z-index: -5;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
