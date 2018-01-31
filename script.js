@@ -1,7 +1,7 @@
-const burger = document.getElementById('burger')
+const bar = document.getElementById('bar')
 const menu = document.getElementById("menu")
 
-burger.addEventListener('click', () => {
+bar.addEventListener('click', () => {
     console.log('clicked')
     if(menu.classList.contains('drop_menu')){
         menu.classList.remove('drop_menu')
