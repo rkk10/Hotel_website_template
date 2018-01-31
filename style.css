@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    margin: 10px 0px;
+    
+}
+.logo{
+    text-align: center;
+    margin: 10px 0px;
+}
+ul.menu{
+    padding: 10px 0px;
+    list-style: none;
+    background-color: #5e5e5e;
+    color: white;
+}
+li{
+    height: 30px;
+    text-align: center;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+}
