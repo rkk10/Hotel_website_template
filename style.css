@@ -102,15 +102,22 @@ li:hover{
     color: #737373;
     letter-spacing: 1px;
 }
-.showDish{
-
+.showDish {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.DishPic{
-
+.dishPic {
+    width: 96%;
+    height: 300px;
+    background-image: url(img/little.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .DishName{
 
 }
 .DishPrice{
-    
+
 }
