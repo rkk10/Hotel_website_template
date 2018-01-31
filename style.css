@@ -77,3 +77,20 @@ li:hover{
     align-items: center;
     justify-content: center;
 }
+.dishesh{
+    padding: 20px 10px;
+    display: flex;
+}
+.dish{
+
+}
+.dish_name {
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+}
+.dish_price{
+
+}
+.discription{
+
+}
