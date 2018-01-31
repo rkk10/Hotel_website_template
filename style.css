@@ -40,3 +40,7 @@ li{
     align-items: center;
     padding: 10px;
 }
+
+.drop_menu{
+    display: none;
+}
