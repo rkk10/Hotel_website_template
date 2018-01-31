@@ -14,16 +14,20 @@ header{
     align-items: center;
 }
 ul.menu{
-    padding: 10px 0px;
+    padding: 0px 0px;
     list-style: none;
-    background-color: #5e5e5e;
+    background-color: #5e5e5e21;
     color: white;
 }
 li{
     height: 30px;
-    text-align: center;
-    margin: 10px 0px;
     letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .burgur{
     height: 35px;
