@@ -78,19 +78,27 @@ li:hover{
     justify-content: center;
 }
 .dishesh{
-    padding: 20px 10px;
+    padding: 6px 10px;
     display: flex;
 }
 .dish{
-
+    flex: 1;
 }
 .dish_name {
     border-bottom: 1px solid gray;
     padding: 10px 0px;
+    font-weight: bold;
+    color: rgb(64, 64, 64);
 }
-.dish_price{
-
+.dish_price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
 }
-.discription{
-
+.discription {
+    padding: 10px 0px;
+    font-size: small;
+    color: #737373;
+    letter-spacing: 1px;
 }
