@@ -107,6 +107,8 @@ li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px;
 }
 .dishPic {
     width: 96%;
@@ -114,6 +116,14 @@ li:hover{
     background-image: url(img/little.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0px 0px 4px 1px rgba(128, 128, 128, 0.3);
+}
+.detail{
+    width: 96%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
 }
 .DishName{
 
