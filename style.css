@@ -6,7 +6,9 @@
 }
 
 header {}
-
+h2{
+    font-weight: bolder;
+}
 .logo {
     margin: 10px 0px;
     height: 35px;
@@ -216,7 +218,7 @@ footer {
         justify-content: space-between;
         background-color: whitesmoke;
     }
-    .logo{
+    .logo {
         margin: 10px 20px;
     }
     li:hover {
@@ -238,23 +240,28 @@ footer {
         padding: 5px;
     }
     .head {
-        height: 400px;
+        height: 75vh;
     }
+    .list {}
     .dishesh {
-        width: 50vw;
+        width: 48%;
         float: left;
+        margin: 1%;
     }
     footer {
         display: grid;
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns:1fr 1fr 1fr 1fr;
     }
     section {
         display: grid;
-        width: 100vw;
-        grid-template-columns: 2fr 2fr;
+        width: 98vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .showDish{
+        padding: 2%;
     }
     .dishPic {
-        height: 48vw;
-        width: 48vw;
+        height: 20vw;
+        width: 100%;
     }
 }
