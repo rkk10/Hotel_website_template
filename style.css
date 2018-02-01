@@ -127,7 +127,7 @@ li:hover {
 }
 
 .dishPic {
-    width:96vw;
+    width: 96vw;
     height: 96vw;
     background-image: url(img/little.jpg);
     background-size: cover;
@@ -199,16 +199,62 @@ footer {
         display: grid;
         grid-template-columns: 2fr 2fr;
     }
-    section{
+    section {
         display: grid;
         width: 100vw;
         grid-template-columns: 2fr 2fr;
     }
-    .dishPic{
+    .dishPic {
         height: 48vw;
         width: 48vw;
     }
-    .list{
-        
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: whitesmoke;
+    }
+    .logo{
+        margin: 10px 20px;
+    }
+    li:hover {
+        color: #FF9800;
+        background: transparent;
+    }
+    nav {
+        display: flex;
+    }
+    .burgur {
+        display: none;
+    }
+    ul.menu {
+        width: 60vw;
+        color: black;
+        background-color: transparent;
+    }
+    li {
+        padding: 5px;
+    }
+    .head {
+        height: 400px;
+    }
+    .dishesh {
+        width: 50vw;
+        float: left;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    section {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 2fr 2fr;
+    }
+    .dishPic {
+        height: 48vw;
+        width: 48vw;
     }
 }
