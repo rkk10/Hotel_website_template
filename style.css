@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    font-family: Segoe UI;
+    font-weight: 300;
 }
 header{
     
@@ -101,6 +103,7 @@ li:hover{
     font-size: small;
     color: #737373;
     letter-spacing: 1px;
+    font-weight: 400;
 }
 .showDish {
     padding: 1%;
