@@ -149,3 +149,38 @@ footer {
 .box p{
     margin: 4px 0px;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 480px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+    }
+    .burgur{
+        display: none;
+    }
+    ul.menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        }
+    li{
+        padding: 5px;
+    }
+    .head{
+        height: 400px;
+    }
+
+    footer{
+        display: table-row;
+    }
+    .box{
+        float: left;
+        width: 50vw;
+    }
+}
